@@ -688,7 +688,7 @@
       <div style="display:flex;flex-direction:column;gap:10px;">
         <button class="btn btn-green" style="width:100%;padding:14px;font-size:13px;" onclick="doShare()">📤 COMPARTIR ENLACE</button>
         <button class="btn btn-blue" style="width:100%;padding:14px;font-size:13px;" onclick="copyLink()">📋 COPIAR ENLACE</button>
-        <a href="https://wa.me/?text=Te%20comparto%20COMUNIPRO%20COGNITIVO%20300%2C%20herramienta%20de%20Comunicaci%C3%B3n%20Aumentativa%20de%20Adriana%20Soba%20Fonoaudi%C3%B3loga%20%F0%9F%A7%A9%20https%3A%2F%2Fcomunipro300.netlify.app" target="_blank" style="text-decoration:none;">
+        <a href="https://wa.me/?text=Te%20comparto%20COMUNIPRO%20COGNITIVO%20300%2C%20herramienta%20de%20Comunicaci%C3%B3n%20Aumentativa%20de%20Adriana%20Soba%20Fonoaudi%C3%B3loga%20%F0%9F%A7%A9%20https%3A%2F%2Fcomunipro2026-oss.github.io/comunicador-aac" target="_blank" style="text-decoration:none;">
           <button class="btn btn-green" style="width:100%;padding:14px;font-size:13px;background:linear-gradient(135deg,#25D366,#128C7E);">💬 COMPARTIR POR WHATSAPP</button>
         </a>
       </div>
@@ -1819,7 +1819,7 @@ function doShare() {
   const shareData = {
     title: 'COMUNIPRO COGNITIVO 300',
     text: 'COMUNIPRO COGNITIVO 300 - Herramienta de Comunicación Aumentativa y Alternativa por Adriana Soba, Fonoaudióloga',
-    url: 'https://comunipro300.netlify.app'
+    url: 'https://comunipro2026-oss.github.io/comunicador-aac'
   };
   if (navigator.share) {
     navigator.share(shareData).catch(()=>copyLink());
@@ -1829,7 +1829,7 @@ function doShare() {
 }
 
 function copyLink() {
-  const url = 'https://comunipro300.netlify.app';
+  const url = 'https://comunipro2026-oss.github.io/comunicador-aac';
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(url).then(()=>{
       showNotif('✅ ENLACE COPIADO');
