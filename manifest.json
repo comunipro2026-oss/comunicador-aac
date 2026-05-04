@@ -1,16 +1,22 @@
 {
-      "name": "COMUNIPRO",
-        "short_name": "COMUNIPRO",
-          "start_url": "/comunicador-aac/",
-            "display": "standalone",
-              "background_color": "#1E3A5F",
-                "theme_color": "#1E3A5F",
-                  "icons": [
-                      {
-                            "src": "https://comunipro2026-oss.github.io/comunicador-aac/icon-192.png",
-                                  "sizes": "192x192",
-                                        "type": "image/png"
-                                            }
-                                              ]
-                                              }
+  "name": "COMUNIPRO",
+  "short_name": "COMUNIPRO",
+  "start_url": "/comunicador-aac/",
+  "display": "standalone",
+  "background_color": "#1E3A5F",
+  "theme_color": "#1E3A5F",
+  "icons": [
+    {
+      "src": "https://comunipro2026-oss.github.io/comunicador-aac/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://comunipro2026-oss.github.io/comunicador-aac/icon-192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
